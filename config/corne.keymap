@@ -18,13 +18,13 @@
         compatible = "zmk,combos";
 
         mid-mouse {
-            bindings = <&mkp MB3>;
+            bindings = <&mkp MCLK>;
             key-positions = <7 9>;
             layers = <3>;
         };
 
         mb3 {
-            bindings = <&mkp MB3>;
+            bindings = <&mkp MCLK>;
             key-positions = <26 27>;
             layers = <3>;
         };
