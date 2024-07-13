@@ -85,7 +85,7 @@
 
             display-name = "Func";
             bindings = <
-&trans  &kp F1           &kp F2    &kp F3    &kp F4          &kp F5     &kp C_VOLUME_UP    &msc SCROLL_UP  &none            &msc SCROLL_DOWN  &none  &none
+&trans  &kp F1           &kp F2    &kp F3    &kp F4          &kp F5     &kp C_VOLUME_UP    &none           &mmv MOVE_UP     &msc SCROLL_DOWN  &none  &none
 &trans  &kp F6           &kp F7    &kp F8    &kp F9          &kp F10    &kp C_VOLUME_DOWN  &none           &none            &none             &none  &none
 &trans  &kp PRINTSCREEN  &mkp MB2  &mkp MB1  &kp F11         &kp F12    &kp C_MUTE         &kp C_PREVIOUS  &kp C_NEXT       &kp C_PLAY        &none  &none
                                    &kp LGUI  &kp LEFT_SHIFT  &trans     &kp BACKSPACE      &kp SPACE       &none
