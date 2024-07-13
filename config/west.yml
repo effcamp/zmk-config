@@ -3,11 +3,11 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: ftc
-      url-base: https://github.com/ftc/ 
+      url-base: https://github.com/effcamp/ 
   projects:
     - name: zmk
       remote: ftc
-      revision: mouse-ftc
+      revision: master
       import: app/west.yml
   self:
     path: config
