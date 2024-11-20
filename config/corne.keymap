@@ -48,10 +48,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB              &kp Q  &kp W  &kp E     &kp R           &kp T          &kp Y            &kp U        &kp I             &kp O    &kp P     &kp MINUS
-&mt LEFT_ALT ESCAPE  &kp A  &kp S  &kp D     &kp F           &kp G          &kp H            &kp J        &kp K             &kp L    &kp SEMI  &kp SQT
-&kp LCTRL            &kp Z  &kp X  &kp C     &kp V           &kp B          &kp N            &kp M        &kp COMMA         &kp DOT  &kp FSLH  &mt RIGHT_SHIFT ENTER
-                                   &kp LGUI  &kp LEFT_SHIFT  &lt 2 SPACE    &lt 3 BACKSPACE  &lt 2 SPACE  &mt RSHIFT ENTER
+&none  &kp Q           &kp W  &kp E            &kp R           &kp T          &kp Y              &kp U        &kp I             &kp O    &kp P     &none
+&none  &mt LEFT_ALT A  &kp S  &kp D            &kp F           &kp G          &kp H              &kp J        &kp K             &kp L    &kp SQT   &none
+&none  &mt LCTRL Z     &kp X  &kp C            &kp V           &kp B          &mt RIGHT_SHIFT N  &mt LCTRL M  &mt LALT COMMA    &kp DOT  &kp FSLH  &none
+                              &mt LGUI ESCAPE  &kp LEFT_SHIFT  &lt 2 SPACE    &lt 3 BACKSPACE    &lt 2 SPACE  &mt RSHIFT ENTER
             >;
         };
 
@@ -75,10 +75,10 @@
 
             display-name = "NumNav";
             bindings = <
-&kp GRAVE  &kp NON_US_BACKSLASH  &kp MINUS  &kp LBKT  &kp RBKT  &kp EQUAL    &none   &kp HOME     &kp UP_ARROW   &kp END    &kp RIGHT_GUI      &kp BSPC
-&kp LALT   &kp N1                &kp N2     &kp N3    &kp N4    &kp N5       &none   &kp LEFT     &kp DOWN       &kp RIGHT  &kp RIGHT_CONTROL  &kp DELETE
-&kp LCTRL  &kp N6                &kp N7     &kp N8    &kp N9    &kp N0       &none   &kp PAGE_UP  &kp PAGE_DOWN  &none      &kp RALT           &kp ENTER
-                                            &kp LGUI  &trans    &kp SPACE    &trans  &trans       &mo 4
+&none  &kp GRAVE              &kp BACKSLASH  &kp LBKT  &kp RBKT  &kp ESC      &kp DEL    &kp HOME     &kp UP_ARROW   &kp END    &kp BACKSPACE  &none
+&none  &mt LEFT_ALT NUMBER_1  &kp N2         &kp N3    &kp N4    &kp N5       &kp MINUS  &kp LEFT     &kp DOWN       &kp RIGHT  &kp SEMICOLON  &none
+&none  &mt LCTRL NUMBER_6     &kp N7         &kp N8    &kp N9    &kp N0       &kp EQUAL  &kp PAGE_UP  &kp PAGE_DOWN  &kp RCTRL  &kp ENTER      &none
+                                             &kp LGUI  &trans    &kp SPACE    &trans     &trans       &mo 4
             >;
         };
 
@@ -93,17 +93,17 @@
             bindings = <
 &trans  &kp F1           &kp F2     &kp F3     &kp F4          &kp F5     &kp C_VOLUME_UP    &msc MOVE_UP    &mmv MOVE_UP    &msc MOVE_DOWN   &none  &none
 &trans  &kp F6           &kp F7     &kp F8     &kp F9          &kp F10    &kp C_VOLUME_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none
-&trans  &kp PRINTSCREEN  &mkp RCLK  &mkp LCLK  &kp F11         &kp F12    &kp C_MUTE         &kp C_PREVIOUS  &kp C_NEXT      &kp C_PLAY       &none  &none
+&trans  &kp PRINTSCREEN  &mkp RCLK  &mkp LCLK  &kp F11         &kp F12    &kp C_MUTE         &kp C_PREVIOUS  &kp C_PLAY      &kp C_NEXT       &none  &none
                                     &kp LGUI   &kp LEFT_SHIFT  &trans     &kp BACKSPACE      &kp SPACE       &none
             >;
         };
 
         connect {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none         &none       &none  &none  &none  &none  &none
-&bt BT_CLR    &none         &none         &none         &none         &sys_reset    &sys_reset  &none  &none  &none  &none  &none
-&tog 1        &none         &none         &none         &none         &none         &none       &none  &none  &none  &none  &none
-                                          &none         &none         &none         &none       &none  &none
+&none  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 0    &none       &none  &none  &none  &none  &none
+&none  &none         &none         &none         &none         &bt BT_CLR      &sys_reset  &none  &none  &none  &none  &none
+&none  &tog 1        &none         &none         &none         &none           &none       &none  &none  &none  &none  &none
+                                   &none         &none         &none           &none       &none  &none
             >;
 
             label = "Conn";
