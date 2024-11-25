@@ -94,9 +94,9 @@
 
             display-name = "Func";
             bindings = <
-&trans  &kp F1           &kp F2     &kp F3     &kp F4          &kp F5     &kp C_VOLUME_UP    &msc MOVE_UP    &mmv MOVE_UP    &msc MOVE_DOWN   &none  &none
-&trans  &kp F6           &kp F7     &kp F8     &kp F9          &kp F10    &kp C_VOLUME_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none
-&trans  &kp PRINTSCREEN  &mkp RCLK  &mkp LCLK  &kp F11         &kp F12    &kp C_MUTE         &kp C_PREVIOUS  &kp C_PLAY      &kp C_NEXT       &none  &none
+&trans  &kp F1           &kp F2     &kp F3     &kp F4          &kp F5     &kp C_VOLUME_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp LSHFT     &none
+&trans  &kp F6           &kp F7     &kp F8     &kp F9          &kp F10    &kp C_VOLUME_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LCTRL     &none
+&trans  &kp PRINTSCREEN  &mkp RCLK  &mkp LCLK  &kp F11         &kp F12    &kp C_MUTE         &kp C_PREVIOUS  &kp C_PLAY      &kp C_NEXT       &kp LEFT_ALT  &none
                                     &kp LGUI   &kp LEFT_SHIFT  &trans     &kp BACKSPACE      &kp SPACE       &none
             >;
         };
